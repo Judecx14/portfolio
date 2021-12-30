@@ -1,0 +1,32 @@
+section {
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+#welcome-message{
+    height: 300px;
+    margin-bottom: 35px;
+}
+
+.welcome-message {
+  font-family: "Montserrat Black";
+  font-size: 40px;
+  line-height: 60px;
+}
+
+#banner-text-gradient {
+  background: -webkit-linear-gradient(45deg, var(--blue), var(--aqua));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#banner-img {
+  width: 600px;
+}
+
+#arrow-icon {
+  font-size: 40px;
+  color: var(--grey);
+  margin-top: 45px;
+}

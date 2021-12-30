@@ -1,0 +1,139 @@
+nav {
+  backdrop-filter: blur(25px);
+  background-color: rgba(253, 253, 253, 0.582);
+  position: fixed;
+  width: 100%;
+}
+
+#brand-name {
+  font-family: "Work Sans Black";
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+a {
+  font-family: "Work Sans Medium";
+  font-weight: 500;
+  color: var(--grey);
+  margin: 10px;
+}
+
+a:hover {
+  color: var(--black);
+}
+
+a:visited {
+  color: var(--grey);
+}
+
+#cv-btn {
+  margin: 7.5px;
+  height: 45px;
+  border: none;
+  border-radius: 7.5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Work Sans";
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--black);
+  transition: transform 0.25s ease;
+}
+
+#cv-btn:active {
+  transition: transform 0.25s ease;
+  transform: translateY(5px);
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    min-height: 90vh;
+    padding-bottom: 50px;
+  }
+  a{
+    margin: auto;
+  }
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #474747;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.toggler-icon {
+  width: 35px;
+  height: 4px;
+  background-color: #ec6657;
+  display: block;
+  transition: all 0.2s;
+  border-radius: 100px;
+}
+
+.middle-bar {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  width: 25px;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: var(--grey);
+}
