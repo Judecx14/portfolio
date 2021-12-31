@@ -1,0 +1,17 @@
+<svg id="flutter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115.236" height="142.629" viewBox="0 0 115.236 142.629">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-7.075" y1="0.283" x2="-7.075" y2="0.281" gradientUnits="objectBoundingBox">
+      <stop offset="0.2" stop-opacity="0.149"/>
+      <stop offset="0.85" stop-color="#616161" stop-opacity="0.012"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-5.425" y1="0.364" x2="-5.424" y2="0.364" gradientUnits="objectBoundingBox">
+      <stop offset="0.2" stop-opacity="0.549"/>
+      <stop offset="0.85" stop-color="#616161" stop-opacity="0.012"/>
+    </linearGradient>
+  </defs>
+  <path id="Trazado_165" data-name="Trazado 165" d="M21.963,93.272,0,71.309,71.315,0h43.921m0,65.8H71.315L54.862,82.256l21.963,21.963" fill="rgba(255,255,255,0.8)"/>
+  <path id="Trazado_166" data-name="Trazado 166" d="M951.7,1829.858l16.452,16.452h43.921l-38.41-38.41" transform="translate(-896.838 -1703.68)" fill="#fff"/>
+  <path id="Trazado_167" data-name="Trazado 167" d="M571.6,1449.535l21.929-21.935,21.929,21.929-21.929,21.934Z" transform="translate(-538.649 -1345.303)" fill="#fff"/>
+  <path id="Trazado_168" data-name="Trazado 168" d="M952,1830.029l21.929-21.929,3.061,3.061-21.929,21.929Z" transform="translate(-897.12 -1703.869)" fill="url(#linear-gradient)"/>
+  <path id="Trazado_169" data-name="Trazado 169" d="M951.7,1829.763l32.588-11.258L973.663,1807.8" transform="translate(-896.838 -1703.586)" fill="url(#linear-gradient-2)"/>
+</svg>

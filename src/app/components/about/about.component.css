@@ -1,0 +1,112 @@
+section{
+    margin-top: 100px;
+}
+
+#hr-gradient {
+    margin: auto;
+    background:var(--gradientOrange);
+    height: 7.5px;
+    width: 65px;
+    opacity: 1;
+}
+
+h3{
+    color: var(--black);
+    font-family: 'Montserrat Bold';
+}
+
+#content-about{
+    margin-top: 125px;
+}
+
+#profile-icon{
+    background: -webkit-linear-gradient(45deg, var(--orange), var(--yellow));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 150px;
+}
+
+#content-about-me{
+    margin-top: 40px;
+}
+
+#content-about-education{
+    margin-top: 5px;
+}
+
+#about-me-txt{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 20px;
+}
+
+
+#timeline-border{
+    box-sizing: content-box;
+    border-width: 3.5px;
+    border-left-style: solid;
+    border-image: linear-gradient(to right bottom, var(--orange), var(--yellow));
+    border-image-slice: 1;
+}
+
+#circle-icon{
+    background: -webkit-linear-gradient(45deg, var(--orange), var(--yellow));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px ;
+    margin: auto auto auto 0;
+    position: relative;
+    left: -12.5px;
+}
+
+#container-education{
+    width: 100%;
+}
+
+#title-name{
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+#aditional-data-education{
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+
+.icon-custom{
+    font-size: 16px;
+    color: var(--grey);
+}
+
+#value-img{
+    width: 150px;
+    height: 150px;
+}
+
+#container-value{
+   border-radius: 15px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   box-shadow: 0px 0px 7.5px 1px rgba(0, 0, 0, 0.082);
+}
+
+#hr-circular{
+    margin: auto;
+    height: 15px;
+    background-color: var(--white);
+    border: 2px solid var(--yellow);
+    border-radius: 100px;
+    width: 65px;
+    opacity: 0.75;
+}
+
+h5{
+    font-family: 'Montserrat Bold';
+    background: -webkit-linear-gradient(45deg, var(--orange), var(--yellow));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

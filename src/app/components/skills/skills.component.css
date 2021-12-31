@@ -1,0 +1,46 @@
+section{
+    margin-top: 150px;
+}
+
+#hr-gradient {
+    margin: auto;
+    background:var(--gradientBlue);
+    height: 7.5px;
+    width: 65px;
+    opacity: 1;
+}
+
+.container-skills{
+    border-radius: 15px;
+}
+
+h4{
+    font-family: 'Montserrat Bold';
+    color: var(--white);
+}
+
+p{
+    font-family: 'Montserrat Medium';
+    color: rgb(233, 233, 233);
+}
+
+#container-frontend-skills{
+    background: var(--gradientBlue);
+}
+
+#container-backend-skills{
+    background: var(--gradientOrange);
+}
+
+#container-design-skills{
+    background: var(--gradientPurple);
+}
+
+#hr-circular{
+    margin: auto;
+    height: 13px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 100px;
+    width: 135px;
+    opacity: 1;
+}

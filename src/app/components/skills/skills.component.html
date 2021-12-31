@@ -1,0 +1,12 @@
+<section class="container">
+    <h2 class="text-center">Hablilidades</h2>
+    <hr id="hr-gradient">
+    <div *ngFor="let skill of skills">
+        <div class="container-skills p-5 mb-5 mt-5" [id]="skill.id">
+            <h4>{{skill.title}}</h4>
+            <p>{{skill.descrtiption}}</p>
+            <img *ngFor="let image of skill.images" [src]="'assets/img/skills/'+image" alt="image">
+        </div>
+        <hr id="hr-circular">
+    </div>
+</section>

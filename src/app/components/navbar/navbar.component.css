@@ -3,6 +3,7 @@ nav {
   background-color: rgba(253, 253, 253, 0.582);
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 #brand-name {
@@ -14,8 +15,9 @@ nav {
 a {
   font-family: "Work Sans Medium";
   font-weight: 500;
-  color: var(--grey);
+  color: #474747b0;
   margin: 10px;
+  font-size: 15.5px;
 }
 
 a:hover {

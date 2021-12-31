@@ -1,6 +1,6 @@
 section {
   min-height: 100vh;
-  padding-top: 100px;
+  padding-top: 130px;
 }
 
 #welcome-message{
@@ -28,5 +28,5 @@ section {
 #arrow-icon {
   font-size: 40px;
   color: var(--grey);
-  margin-top: 45px;
+  margin-top: 25px;
 }

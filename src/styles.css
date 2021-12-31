@@ -11,6 +11,10 @@
 }
 
 @font-face {
+  font-family: "Work Sans Bold";
+  src: url("/assets/fonts/font-work-sans/work-sans-bold.ttf");
+}
+@font-face {
   font-family: "Work Sans Black";
   src: url("/assets/fonts/font-work-sans/work-sans-black.ttf");
 }
@@ -21,13 +25,16 @@
 }
 
 @font-face {
+  font-family: "Montserrat Bold";
+  src: url("/assets/fonts/font-montserrat/montserrat-bold.ttf");
+}
+
+@font-face {
   font-family: "Montserrat Black";
   src: url("/assets/fonts/font-montserrat/montserrat-black.ttf");
 }
 
-
 :root {
-
   --blue: #0055ff;
   --aqua: #00eeff;
   --grey: #474747;
@@ -42,6 +49,7 @@
   --gradientPurple: linear-gradient(to right, var(--purple), var(--pink));
 }
 
+
 ::-webkit-scrollbar {
   width: 8.5px;
 }
@@ -53,3 +61,9 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--black); 
 }
+
+h2{
+  font-family: 'Work Sans Bold';
+  color: var(--black);
+}
+
