@@ -1,5 +1,8 @@
-<nav class="navbar navbar-expand-lg">
-  <div class="container">
+<nav 
+  class="navbar navbar-expand-lg" 
+  [ngStyle]="isTop ? {} : {'border-bottom-width': '1px', 'border-bottom-style': 'solid','border-bottom-color': '#E5E5E5' }"
+>
+  <div class="container" as>
     <span class="navbar-brand" id="brand-name">.(C)</span>
     <button
       class="navbar-toggler collapsed"

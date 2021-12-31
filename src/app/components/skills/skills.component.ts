@@ -6,49 +6,50 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skills.component.css'],
 })
 export class SkillsComponent implements OnInit {
-  skills = [
+  
+  skills: Skill[] = [
     {
       id: 'container-frontend-skills',
       title: 'Tecnologías frontend web – móvil.',
-      descrtiption:
+      description:
         'Actualmente estas son las tecnologías frontend que conozco y uso para el desarrollo de proyectos.',
       images: [
-        'javascript.svg',
-        'typescript.svg',
-        'dart.svg',
-        'html.svg',
-        'css.svg',
-        'angular.svg',
-        'flutter.svg',
-        'tailwindcss.svg',
-        'bootstrap.svg',
+        { id: 'icon-javascript', path: 'javascript.svg' },
+        { id: 'icon-typescript', path: 'typescript.svg' },
+        { id: 'icon-dart', path: 'dart.svg' },
+        { id: 'icon-html', path: 'html.svg' },
+        { id: 'icon-css', path: 'css.svg' },
+        { id: 'icon-angular', path: 'angular.svg' },
+        { id: 'icon-flutter', path: 'flutter.svg' },
+        { id: 'icon-tailwindcss', path: 'tailwindcss.svg' },
+        { id: 'icon-bootstrap', path: 'bootstrap.svg' }
       ],
     },
     {
       id: 'container-backend-skills',
       title: 'Tecnologías backend.',
-      descrtiption:
+      description:
         'Son estas las tecnologías backend que utilizo y conozco para el desarrollo backend.',
       images: [
-        'javascript.svg',
-        'typescript.svg',
-        'php.svg',
-        'mongodb.svg',
-        'mysql.svg',
-        'adonis.svg',
-        'laravel.svg',
+        { id: 'icon-javascript', path: 'javascript.svg' },
+        { id: 'icon-typescript', path: 'typescript.svg' },
+        {id: 'icon-php', path:'php.svg'},
+        {id: 'icon-mongodb', path:'mongodb.svg'},
+        {id: 'icon-mysql', path:'mysql.svg'},
+        {id: 'icon-adonis', path:'adonis.svg'},
+        {id: 'icon-laravel', path:'laravel.svg'},
       ],
     },
     {
       id: 'container-design-skills',
       title: 'Diseño y edición.',
-      descrtiption:
+      description:
         'Utilizo estas tecnologías para el desarrollo y creación de la experiencia de usuario.',
       images: [
-        'adobe-photoshop.svg',
-        'adobe-illustrator.svg',
-        'adobe-xd.svg',
-        'figma.svg',
+        {id: 'icon-adobe-photoshop', path:'adobe-photoshop.svg'},
+        {id: 'icon-adobe-illustrator', path:'adobe-illustrator.svg'},
+        {id: 'icon-adobe-xd', path:'adobe-xd.svg'},
+        {id: 'icon-figma', path:'figma.svg'},
       ],
     },
   ];
@@ -56,4 +57,16 @@ export class SkillsComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+}
+
+export interface Skill {
+  id: string
+  title: string
+  description: string
+  images: Image[]
+}
+
+export interface Image {
+  id: string
+  path: string
 }

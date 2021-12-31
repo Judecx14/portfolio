@@ -42,11 +42,11 @@
         </div>
     </div>
     <h3 class="text-center mt-5">Valores</h3>
+    <hr id="hr-circular">
     <div class="row pt-5">
         <div *ngFor="let value of values" class="col-12 col-lg-3 mb-4">
             <div id="container-value">
                 <img class="d-block mx-auto mb-4" [src]="'/assets/img/about/'+value.image" alt="value" id="value-img">
-                <hr id="hr-circular">
                 <h5 class="text-center mt-4">{{value.title}}</h5>
             </div>
         </div>
