@@ -19,9 +19,16 @@ h4 {
   color: var(--white);
 }
 
+h5 {
+  font-family: "Montserrat Medium";
+  font-weight: 600;
+  color: var(--black);
+}
+
 p {
   font-family: "Montserrat Medium";
   color: rgb(233, 233, 233);
+  line-height: 28px;
 }
 
 #container-frontend-skills {
@@ -47,6 +54,7 @@ p {
 
 .skill-image {
   width: 75px;
+  height: 75px;
 }
 
 #icon-dart{
@@ -87,4 +95,11 @@ p {
 
 #icon-figma{
     width: 50px;
+
+}
+
+.skill-additional-icon{
+  width: 75px;
+  height: 75px;
+  margin: 25px;
 }

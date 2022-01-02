@@ -1,0 +1,39 @@
+<section class="container">
+    <h2 class="text-center">Experiencia</h2>
+    <hr id="hr-gradient">
+    <div class="row">
+        <div *ngFor="let project of projects" class="col-12 col-lg-6 p-lg-5 pt-5 px-3">
+            <div 
+            class="text-center pt-5 px-5 proyect-card" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal"
+            [style]="'background-color:'+project.primaryColor"
+            >
+                <h4 [style]="'color:'+project.textColor">{{project.name}}</h4>
+                <hr 
+                class="mt-3 mb-3" id="hr-circular" 
+                [style]="'background-color:'+project.secundaryColor"
+                >
+                <p [style]="'color:'+project.textColor">{{project.description}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="exampleModal">
+    <div class="modal-dialog modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal title</h4>
+          <button data-bs-dismiss="modal" ></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 <section class="container">
     <h2 class="text-center">Acerca</h2>
-    <hr id="hr-gradient">
+    <hr class="mb-5" id="hr-gradient">
     <div class="row text-center" id="content-about">
         <div class="col-12 col-lg-6">
             <h3>Un poco de mi.</h3>
@@ -41,12 +41,12 @@
             </div>
         </div>
     </div>
-    <h3 class="text-center mt-5">Valores</h3>
+    <h3 class="text-center mt-5 mb-3">Valores</h3>
     <hr id="hr-circular">
-    <div class="row pt-5">
+    <div class="row pt-5 mt-4">
         <div *ngFor="let value of values" class="col-12 col-lg-3 mb-4">
             <div id="container-value">
-                <img class="d-block mx-auto mb-4" [src]="'/assets/img/about/'+value.image" alt="value" id="value-img">
+                <img class="d-block mx-auto mb-4" [src]="'/assets/img/about/'+value.image" alt="value" id="value-img" loading="lazy">
                 <h5 class="text-center mt-4">{{value.title}}</h5>
             </div>
         </div>

@@ -11,8 +11,28 @@
             [src]="'assets/img/skills/'+image.path" 
             [alt]="image.id"
             [id]="image.id"
+            loading="lazy"
+            [title]="image.title"
             >
         </div>
         <hr id="hr-circular">
+    </div>
+    <div class="row text-center mt-5">
+        <div class="col-6">
+            <h5>Versionado</h5>
+            <div class="text-center p-5">
+                <img class="img-fluid skill-additional-icon" src="assets/img/skills/git.svg" alt="git-icon" title="Git">
+                <img class="img-fluid skill-additional-icon" src="assets/img/skills/github.svg" alt="github-icon" title="GitHub">
+            </div>
+        </div>
+        <div class="col-6">
+            <h5>Sistemas embebidos</h5>
+            <div class="text-center pt-5">
+                <img class="img-fluid skill-additional-icon" src="assets/img/skills/arduino.svg" alt="arduino-icon" title="Arduino">
+                <img class="img-fluid skill-additional-icon" src="assets/img/skills/raspberry-pi.svg" alt="raspberry-pi-icon" title="Raspberry Pi">
+                <img class="img-fluid skill-additional-icon" src="assets/img/skills/c.svg" alt="c-icon" title="C">
+                <img class="img-fluid skill-additional-icon" src="assets/img/skills/python.svg" alt="python-icon" title="Python">
+            </div>
+        </div>
     </div>
 </section>

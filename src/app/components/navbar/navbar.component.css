@@ -3,7 +3,7 @@ nav {
   background-color: rgba(253, 253, 253, 0.582);
   position: fixed;
   width: 100%;
-        
+
   z-index: 2;
 }
 
@@ -14,6 +14,7 @@ nav {
 }
 
 a {
+  text-decoration: none;
   font-family: "Work Sans Medium";
   font-weight: 500;
   color: #474747b0;
@@ -21,18 +22,20 @@ a {
   font-size: 15.5px;
 }
 
+a:focus{
+  color: #474747b0;
+
+}
+
 a:hover {
   color: var(--black);
 }
 
-a:visited {
-  color: var(--grey);
-}
 
 #cv-btn {
   margin: 7.5px;
   height: 45px;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 7.5px;
   padding-left: 15px;
   padding-right: 15px;
@@ -40,7 +43,15 @@ a:visited {
   font-weight: bold;
   color: var(--white);
   background-color: var(--black);
-  transition: transform 0.25s ease;
+  transition: transform 0.12s ease;
+  transition: 0.12s;
+}
+
+#cv-btn:hover {
+  background-color: transparent;
+  color: var(--black);
+  border: 1px solid var(--black);
+  transition: 0.25s;
 }
 
 #cv-btn:active {
@@ -53,7 +64,7 @@ a:visited {
     min-height: 90vh;
     padding-bottom: 50px;
   }
-  a{
+  a {
     margin: auto;
   }
 }
