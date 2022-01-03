@@ -32,7 +32,7 @@ a:hover {
 }
 
 
-#cv-btn {
+.cv-btn {
   margin: 7.5px;
   height: 45px;
   border: 1px solid transparent;
@@ -47,14 +47,14 @@ a:hover {
   transition: 0.12s;
 }
 
-#cv-btn:hover {
+.cv-btn:hover {
   background-color: transparent;
   color: var(--black);
   border: 1px solid var(--black);
   transition: 0.25s;
 }
 
-#cv-btn:active {
+.cv-btn:active {
   transition: transform 0.25s ease;
   transform: translateY(5px);
 }

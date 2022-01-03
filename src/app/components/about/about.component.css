@@ -94,8 +94,9 @@ h3{
     opacity: 0.55;
 }
 
-h5{
+.value{
     font-family: 'Montserrat Bold';
+    font-size: 17.5px;
     color: var(--grey);
 }
 
