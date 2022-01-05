@@ -1,38 +1,56 @@
-<nav 
-  class="navbar navbar-expand-lg" 
-  [ngStyle]="isTop ? {} : {'border-bottom-width': '1px', 'border-bottom-style': 'solid','border-bottom-color': '#DDDDDD' }"
->
-  <div class="container" as>
-    <span class="navbar-brand" id="brand-name">.(C)</span>
-    <button
-      class="navbar-toggler collapsed"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarCollapse"
-    >
-      <span class="toggler-icon top-bar"></span>
-      <span class="toggler-icon middle-bar"></span>
-      <span class="toggler-icon bottom-bar"></span>
-    </button>
-    <div
-      class="collapse navbar-collapse justify-content-lg-center justify-content-end"
-      id="navbarCollapse"
-    >
-      <div class="navbar-nav text-center">
-        <a 
-        class="nav-link hover-underline-animation" 
-        *ngFor="let option of options" 
-        [href]="option.anchor"
-        >
-          {{option.name}}
-        </a>
-        <button class="d-lg-none cv-btn">
-          <span>Descargar CV</span>
-        </button>
+<header>
+  <nav
+    class="navbar navbar-expand-lg"
+    [ngStyle]="
+      isTop
+        ? {}
+        : {
+            'border-bottom-width': '1px',
+            'border-bottom-style': 'solid',
+            'border-bottom-color': '#DDDDDD'
+          }
+    "
+  >
+    <div class="container" as>
+      <span class="navbar-brand" id="brand-name">.(C)</span>
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-lg-center justify-content-end"
+        id="navbarCollapse"
+      >
+        <div class="navbar-nav text-center">
+          <a
+            class="nav-link hover-underline-animation"
+            *ngFor="let option of options"
+            [href]="option.anchor"
+          >
+            {{ option.name }}
+          </a>
+          <a
+            class="d-lg-none d-flex align-items-center justify-content-center cv-btn"
+            href="/assets/files/cesar-hernandez-cv.pdf"
+            target="_blank"
+          >
+            <span>Descargar CV</span>
+          </a>
+        </div>
       </div>
+      <a
+        class="d-none d-lg-flex align-items-center justify-content-center cv-btn"
+        href="/assets/files/cesar-hernandez-cv.pdf"
+        target="_blank"
+      >
+        <span>Descargar CV</span>
+      </a>
     </div>
-    <button class="d-none d-lg-block cv-btn">
-      <span>Descargar CV</span>
-    </button>
-  </div>
-</nav>
+  </nav>
+</header>

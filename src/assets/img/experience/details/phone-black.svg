@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="539.35" height="1010.7" viewBox="0 0 539.35 1010.7">
+  <g id="Grupo_15" data-name="Grupo 15" transform="translate(-588 -571.289)">
+    <path id="Trazado_216" data-name="Trazado 216" d="M760.8.676h-423.5A57,57,0,0,0,279.38,56.584V955.5a57,57,0,0,0,57.925,55.864H760.8A57,57,0,0,0,818.73,955.5V56.584A57,57,0,0,0,760.8.676Zm40.649,944.515a50.3,50.3,0,0,1-51.173,49.374H347.873a50.339,50.339,0,0,1-51.216-49.374V66.845a50.339,50.339,0,0,1,51.216-49.418H750.325A50.339,50.339,0,0,1,801.5,66.845Z" transform="translate(308.62 570.621)" fill="#434343"/>
+    <path id="Rectángulo_33" data-name="Rectángulo 33" d="M0,0H192.33a0,0,0,0,1,0,0V35.97a15,15,0,0,1-15,15H15a15,15,0,0,1-15-15V0A0,0,0,0,1,0,0Z" transform="translate(761.51 571.289)" fill="#434343"/>
+    <ellipse id="Elipse_49" data-name="Elipse 49" cx="12.186" cy="12.151" rx="12.186" ry="12.151" transform="translate(789.352 588.771)" fill="#575756"/>
+    <rect id="Rectángulo_34" data-name="Rectángulo 34" width="83.396" height="10.597" rx="1.5" transform="translate(816.24 595.623)" fill="#575756"/>
+    <ellipse id="Elipse_50" data-name="Elipse 50" cx="8.371" cy="8.336" rx="8.371" ry="8.336" transform="translate(903.583 592.586)" fill="#575756"/>
+  </g>
+</svg>

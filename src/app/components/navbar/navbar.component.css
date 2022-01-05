@@ -21,15 +21,13 @@ a {
   font-size: 15.5px;
 }
 
-a:focus{
+a:focus {
   color: #474747b0;
-
 }
 
 a:hover {
   color: var(--black);
 }
-
 
 .cv-btn {
   margin: 7.5px;
@@ -44,6 +42,10 @@ a:hover {
   background-color: var(--black);
   transition: transform 0.12s ease;
   transition: 0.12s;
+}
+
+.cv-btn:focus {
+  color: var(--white);
 }
 
 .cv-btn:hover {

@@ -6,12 +6,13 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
+  isCollapsed = true;
   isTop = true;
   options = [
-    { name: 'Acerca', anchor: '#' },
-    { name: 'Habilidades', anchor: '#' },
-    { name: 'Experiencia', anchor: '#' },
-    { name: 'Contacto', anchor: '#' },
+    { name: 'Acerca', anchor: '#acerca' },
+    { name: 'Habilidades', anchor: '#habilidades' },
+    { name: 'Experiencia', anchor: '#experiencia' },
+    { name: 'Contacto', anchor: '#contacto' },
   ];
 
   constructor() {}

@@ -1,0 +1,13 @@
+#logo{
+    font-family: 'Work Sans Black';
+    font-size: 30px;
+    color: var(--black);
+}
+#message{
+    font-family: 'Montserrat Medium';
+    color: var(--grey);
+}
+#copyright{
+    font-family: 'Montserrat';
+    opacity: 0.75;
+}

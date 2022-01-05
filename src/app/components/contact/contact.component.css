@@ -1,0 +1,27 @@
+section{
+    padding-top: 125px;
+    height: 500px;
+}
+
+p{
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+
+#hr-gradient {
+    margin: auto;
+    background:var(--gradientOrange);
+    height: 7.5px;
+    width: 65px;
+    opacity: 1;
+}
+
+a{
+    margin: 30px;
+    margin-top: 0px;
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 50px;
+}
+
