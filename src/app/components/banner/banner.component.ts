@@ -11,7 +11,7 @@ export class BannerComponent implements OnInit {
 
   welcomeMessage: string = `
   Hola! <br>
-  Soy Cesar Hernandéz <br>
+  Soy Cesar Hernández <br>
   Desarrollador de
   <span 
     style=
