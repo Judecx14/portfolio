@@ -71,7 +71,7 @@
                   [class.project-details-image-web]="project.isWeb"
                   [class.project-details-image-mobile]="!project.isWeb"
                   [style]="'border-color:'+project.textColor"
-                  [class.project-details-image-mobile-border-variant]="i == 4"
+                  [class.project-details-image-mobile-border-variant]="i == 4 || i == 2"
                   >
                   <div *ngIf="project.isWeb" class="laptop-body" [style]="'background:'+project.textColor"></div>
                 </div>
