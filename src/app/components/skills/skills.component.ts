@@ -21,6 +21,7 @@ export class SkillsComponent implements OnInit {
         { id: 'icon-html', path: 'html.svg', title: 'HTML' },
         { id: 'icon-css', path: 'css.svg', title: 'CSS' },
         { id: 'icon-angular', path: 'angular.svg', title: 'Angular' },
+        { id: 'icon-vuejs', path: 'vuejs.svg', title: 'Vue.JS' },
         { id: 'icon-flutter', path: 'flutter.svg', title: 'Flutter' },
         { id: 'icon-tailwindcss', path: 'tailwindcss.svg', title: 'TailwindCSS' },
         { id: 'icon-bootstrap', path: 'bootstrap.svg', title: 'Bootstrap' }
@@ -30,7 +31,7 @@ export class SkillsComponent implements OnInit {
       id: 'container-backend-skills',
       title: 'Tecnologías backend.',
       description:
-        'Son estas las tecnologías backend que utilizo y conozco para el desarrollo backend.',
+        'Estas son las tecnologías backend con las que he trabajdo para el desarrollo backend.',
       images: [
         { id: 'icon-javascript', path: 'javascript.svg', title: 'JavaScript' },
         { id: 'icon-typescript', path: 'typescript.svg', title: 'TypeScript' },
@@ -39,6 +40,7 @@ export class SkillsComponent implements OnInit {
         {id: 'icon-mysql', path:'mysql.svg', title: 'MySQL'},
         {id: 'icon-adonis', path:'adonis.svg', title: 'Adonis'},
         {id: 'icon-laravel', path:'laravel.svg', title: 'Laravel'},
+        {id: 'icon-digitalocean', path:'digitalocean.svg', title: 'DigitalOcean'},
       ],
     },
     {
