@@ -1,7 +1,7 @@
-<svg id="figma" xmlns="http://www.w3.org/2000/svg" width="103.826" height="155.739" viewBox="0 0 103.826 155.739">
-  <path id="Trazado_181" data-name="Trazado 181" d="M25.956,251.913a25.966,25.966,0,0,0,25.956-25.956V200H25.956a25.956,25.956,0,0,0,0,51.913Z" transform="translate(0 -96.174)" fill="#fff"/>
-  <path id="Trazado_182" data-name="Trazado 182" d="M0,125.956A25.966,25.966,0,0,1,25.956,100H51.913v51.913H25.956A25.966,25.966,0,0,1,0,125.956Z" transform="translate(0 -48.087)" fill="#fff"/>
-  <path id="Trazado_183" data-name="Trazado 183" d="M0,25.956A25.966,25.966,0,0,1,25.956,0H51.913V51.913H25.956A25.966,25.966,0,0,1,0,25.956Z" fill="#fff"/>
-  <path id="Trazado_184" data-name="Trazado 184" d="M100,0h25.956a25.956,25.956,0,0,1,0,51.913H100Z" transform="translate(-48.087)" fill="#fff"/>
-  <path id="Trazado_185" data-name="Trazado 185" d="M151.913,125.956A25.956,25.956,0,1,1,125.956,100,25.966,25.966,0,0,1,151.913,125.956Z" transform="translate(-48.087 -48.087)" fill="#fff"/>
+<svg id="figma-1_1_" data-name="figma-1 (1)" xmlns="http://www.w3.org/2000/svg" width="119.009" height="178.513" viewBox="0 0 119.009 178.513">
+  <path id="Trazado_238" data-name="Trazado 238" d="M29.752,259.5A29.763,29.763,0,0,0,59.5,229.752V200H29.752a29.752,29.752,0,0,0,0,59.5Z" transform="translate(0 -80.991)" fill="#f6f6f6"/>
+  <path id="Trazado_239" data-name="Trazado 239" d="M0,129.752A29.763,29.763,0,0,1,29.752,100H59.5v59.5H29.752A29.763,29.763,0,0,1,0,129.752Z" transform="translate(0 -40.496)" fill="#e6e6e6"/>
+  <path id="Trazado_240" data-name="Trazado 240" d="M0,29.752A29.763,29.763,0,0,1,29.752,0H59.5V59.5H29.752A29.763,29.763,0,0,1,0,29.752Z" fill="#bcbcbc"/>
+  <path id="Trazado_241" data-name="Trazado 241" d="M100,0h29.752a29.752,29.752,0,0,1,0,59.5H100Z" transform="translate(-40.496)" fill="#e1dfdf"/>
+  <path id="Trazado_242" data-name="Trazado 242" d="M159.5,129.752A29.752,29.752,0,1,1,129.752,100,29.763,29.763,0,0,1,159.5,129.752Z" transform="translate(-40.496 -40.496)" fill="#fff"/>
 </svg>

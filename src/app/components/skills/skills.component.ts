@@ -41,6 +41,7 @@ export class SkillsComponent implements OnInit {
         {id: 'icon-adonis', path:'adonis.svg', title: 'Adonis'},
         {id: 'icon-laravel', path:'laravel.svg', title: 'Laravel'},
         {id: 'icon-digitalocean', path:'digitalocean.svg', title: 'DigitalOcean'},
+        {id: 'icon-firebase', path:'firebase.svg', title: 'Firebase'},
       ],
     },
     {
