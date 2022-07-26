@@ -27,6 +27,7 @@ export class ExperienceComponent implements OnInit {
         { id: 'icon-mysql', path: 'mysql.svg', title: 'MySQL' },
         { id: 'icon-mongodb', path: 'mongodb.svg', title: 'mongodb' },
       ],
+      link: 'https://ponlestylo.com.mx/',
       background: 'ponle-stylo.gif',
       ovarlay: 'laptop-white.svg'
     },

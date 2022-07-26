@@ -2,9 +2,9 @@
     <h2 class="text-center">Hablilidades</h2>
     <hr id="hr-gradient">
     <div *ngFor="let skill of skills">
-        <div class="container-skills p-5 mb-5 mt-5 text-center" [id]="skill.id">
-            <h4 class="text-lg-start">{{skill.title}}</h4>
-            <p class="text-lg-start">{{skill.description}}</p>
+        <div class="container-skills pt-5 pb-5 mb-5 mt-5 text-center" [id]="skill.id">
+            <h4 class="text-lg-start px-5">{{skill.title}}</h4>
+            <p class="text-lg-start px-5">{{skill.description}}</p>
             <img
             class="skill-image img-fluid col-2 m-5"
             *ngFor="let image of skill.images" 

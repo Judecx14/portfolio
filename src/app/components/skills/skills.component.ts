@@ -22,9 +22,11 @@ export class SkillsComponent implements OnInit {
         { id: 'icon-css', path: 'css.svg', title: 'CSS' },
         { id: 'icon-angular', path: 'angular.svg', title: 'Angular' },
         { id: 'icon-vuejs', path: 'vuejs.svg', title: 'Vue.JS' },
+        { id: 'icon-react', path: 'react.svg', title: 'React' },
         { id: 'icon-flutter', path: 'flutter.svg', title: 'Flutter' },
+        { id: 'icon-kotlin', path: 'kotlin.svg', title: 'Kotlin' },
         { id: 'icon-tailwindcss', path: 'tailwindcss.svg', title: 'TailwindCSS' },
-        { id: 'icon-bootstrap', path: 'bootstrap.svg', title: 'Bootstrap' }
+        { id: 'icon-bootstrap', path: 'bootstrap.svg', title: 'Bootstrap' },
       ],
     },
     {
